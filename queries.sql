@@ -90,15 +90,10 @@ RIGHT JOIN owners AS o
 ON a.owner_id=o.id;
 
 -- How many animals are there per species?
-SELECT COUNT(*) as pokemon FROM animals AS a
-JOIN species AS s
-ON a.species_id=s.id
-WHERE s.name='Pokemon';
-
-SELECT COUNT(*) as digimon FROM animals AS a
-JOIN species AS s
-ON a.species_id=s.id
-WHERE s.name='Digimon';
+SELECT s.name, COUNT(*) FROM animals AS a
+LEFT JOIN species AS s
+ON a.species_id = s.species.id
+GROUP BY s.name
 
 -- List all Digimon owned by Jennifer Orwell.
 SELECT a.name FROM animals AS a
