@@ -25,6 +25,9 @@ CREATE TABLE species(
 
 /*Alter animals table*/
 ALTER TABLE animals
+DROP COLUMN species
+
+ALTER TABLE animals
 ADD COLUMN species_id INT;
 
 ALTER TABLE animals
