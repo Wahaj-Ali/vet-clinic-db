@@ -2,6 +2,7 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Vet clinic database\] ](#-vet-clinic-database-)
+  - [Quick view](#quick-view)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -24,6 +25,9 @@
 # 📖 [Vet clinic database] <a name="about-project"></a>
 
  It contains the commands and the querrys for a databse using PostgreSQL.
+
+ ## Quick view
+> ![](assets/vet-Clinic-db.png)
 
 
 ## 🛠 Built With <a name="built-with"></a>
